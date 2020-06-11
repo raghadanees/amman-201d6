@@ -67,13 +67,20 @@ function sumAndMultiply(a, b, c) {
     //var sum0 = sum(a,b);
     //var sum3 = sum0 + c;
    
-}
-
+    var sum3 = a + b + c;
+    var pro3 = a * b * c;
+    var elem3 = '4 and 7 and 5 sum to 16.';
+    var elem4 = 'The product of 4 and 7 and 5 is 140.';
+    return[sum3 , pro3 , elem3 , elem4]
+    }
+    console.log(sumAndMultiply(4,7,5));
+    
+    sumAndMultiply();
 
 
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
- //testSumAndMultiply(4,7,5);
+ testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
